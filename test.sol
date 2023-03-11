@@ -12,7 +12,7 @@ contract AI Chat 1.0 {
         owner = msg.sender;
     }
 
-    function Donate() public payable {
+    function send() public payable {
         payments[msg.sender] = msg.value;
     }
 
